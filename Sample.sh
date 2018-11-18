@@ -1,4 +1,7 @@
 #!/bin/ksh
+
+# Problem statement: Inserting the data into staging main table based on the regions. Connect to the regions using dblink
+
 . /home/nischal/bin/profile.sh
 . /home/nischal/conf/context.properties
 gfcid=$1
